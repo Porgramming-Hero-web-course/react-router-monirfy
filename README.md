@@ -1,19 +1,20 @@
 # Assingnment 8
-This is Assingment 8 Project build with Readt and Ths sports DB API (https://www.thesportsdb.com/)
-### 
 
-### `npm run eject`
+This is Assingment 8 Project by Progaamming Hero. Our Fnatastic Instrucor Jhankar Mahabub.
 
-## Learn More
+### Built With
 
-### Code Splitting
+This project build with this following assets.
 
-### Analyzing the Bundle Size
+- [React Bootstra](https://react-bootstrap.netlify.app/)
+- [React JS](https://reactjs.org/)
+- [The Sports DB API](https://www.thesportsdb.com/)
 
-### Making a Progressive Web App
+### Contact Me
 
-### Advanced Configuration
+Portfolio: [http://monirhossain.com/](http://monirhossain.com)
+Phone: +8801710021512
 
-### Deployment
+### Live Preview
 
-### `npm run build` fails to minify
+Project Link: [https://fantasy-football1.netlify.app/](https://fantasy-football1.netlify.app/)
