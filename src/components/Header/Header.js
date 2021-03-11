@@ -9,8 +9,8 @@ const Header = () => {
       <Navbar expand='lg'>
         <Container>
           <Navbar.Brand as={Link} to='/'>
-            <FontAwesomeIcon icon={faFutbol} className='mr-2' />
-            Fantacy Football
+            <FontAwesomeIcon icon={faFutbol} className='mr-2 text-primary' />
+            Fantasy Football
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>

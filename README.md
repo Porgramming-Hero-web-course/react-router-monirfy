@@ -14,8 +14,7 @@ This project build with this following assets.
 
 ### Contact Me
 
-- [Website URL](http://monirhossain.com)
-- [Phone:](+8801710021512)
+- [Portfoio Website](http://monirhossain.com)
 - [Twitter](https://twitter.com/monirfy)
 
 ### Live Preview

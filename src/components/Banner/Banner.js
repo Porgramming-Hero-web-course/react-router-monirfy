@@ -10,7 +10,7 @@ const Banner = () => {
       <Row>
         <Col lg={12}>
           <FontAwesomeIcon icon={faFutbol} size='6x' className='text-white' />
-          <h1 className='banner-title'>Fantacy Football</h1>
+          <h1 className='banner-title'>Fantasy Football</h1>
         </Col>
       </Row>
     </Container>

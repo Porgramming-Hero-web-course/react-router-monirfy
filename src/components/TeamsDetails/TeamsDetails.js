@@ -27,7 +27,7 @@ const TeamsDetails = () => {
         <img className='' src={strTeamBanner} style={{ width: '100%', height: 'auto' }} alt={strSport} />
       </Container>
       <Container>
-        <Row className='my-5 bg-primary rounded py-3 text-white'>
+        <Row className='my-5 bg-primary rounded py-3 text-white align-items-center'>
           <Col lg={8}>
             <Image className='width50' src={strTeamBadge} roundedCircle />
             <h3>{strTeam}</h3>
