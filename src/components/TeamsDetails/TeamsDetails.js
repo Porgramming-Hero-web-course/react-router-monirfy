@@ -14,7 +14,19 @@ const TeamsDetails = () => {
 
   const [team, setTeam] = useState({});
 
-  const { strTeam, strSport, strGender, intFormedYear, strTwitter, strCountry, strDescriptionEN, strTeamBadge, strTeamBanner } = team;
+  const {
+    strTeam,
+    strSport,
+    strGender,
+    intFormedYear,
+    strTwitter,
+    strYoutube,
+    strFacebook,
+    strCountry,
+    strDescriptionEN,
+    strTeamBadge,
+    strTeamBanner,
+  } = team;
   useEffect(() => {
     const url = `https://www.thesportsdb.com/api/v1/json/1/lookupteam.php?id=${idTeam}`;
     fetch(url)
@@ -63,23 +75,18 @@ const TeamsDetails = () => {
         <Row className='justify-content-center py-5'>
           <Nav>
             <Nav.Item>
-              <Nav.Link href='https://twitter.com' target='_blank'>
+              <Nav.Link href={strTwitter === '' ? 'https://www.twitter.com' : `https://${strTwitter}`} target='_blank'>
                 <FontAwesomeIcon icon={['fab', 'twitter']} size='2x' />
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href='https://facebook.com' target='_blank'>
+              <Nav.Link href={strFacebook === '' ? 'https://www.facebook.com' : `https://${strFacebook}`} target='_blank'>
                 <FontAwesomeIcon icon={['fab', 'facebook']} size='2x' />
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href={strTwitter} target='_blank'>
+              <Nav.Link href={strYoutube === '' ? 'https://www.youtube.com' : `https://${strYoutube}`} target='_blank'>
                 <FontAwesomeIcon icon={['fab', 'youtube']} size='2x' />
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link href='https://instagram.com' target='_blank'>
-                <FontAwesomeIcon icon={['fab', 'instagram']} size='2x' />
               </Nav.Link>
             </Nav.Item>
           </Nav>
