@@ -3,7 +3,7 @@ import { Col, Row, Container } from 'react-bootstrap';
 const About = () => {
   return (
     <>
-      <Container fluid className='banner'>
+      <Container fluid className='banner py-5'>
         <Row>
           <Col>
             <h1 className='banner-title'>About Us</h1>

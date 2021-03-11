@@ -1,5 +1,4 @@
 .banner {
-  padding: 100px 0;
   text-align: center;
   background-image: url(https://cdn.pixabay.com/photo/2018/12/23/17/59/sport-3891579_960_720.jpg);
   background-attachment: fixed;
@@ -8,7 +7,7 @@
   background-size: cover;
   position: relative;
 }
-/* .banner::before {
+.banner::before {
   position: absolute;
   width: 100%;
   background: rgba(0, 0, 0, 0.7);
@@ -17,7 +16,7 @@
   left: 0;
   top: 0;
   height: 100%;
-} */
+}
 
 .banner-title {
   color: #fff;

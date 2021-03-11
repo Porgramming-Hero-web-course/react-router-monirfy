@@ -6,7 +6,7 @@ import { faFutbol } from '@fortawesome/free-solid-svg-icons';
 
 const Banner = () => {
   return (
-    <Container fluid className='banner'>
+    <Container fluid className='banner py-5'>
       <Row>
         <Col lg={12}>
           <FontAwesomeIcon icon={faFutbol} size='6x' className='text-white' />
