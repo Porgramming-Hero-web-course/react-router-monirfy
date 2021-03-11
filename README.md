@@ -2,7 +2,7 @@
 
 This is Assingment 8 Project by [Progaamming Hero](http://web.programming-hero.com/). Our Fnatastic Instructor [Jhankar Mahabub](https://web.facebook.com/JhankarMahbub/).
 
-[![Product Name Screen Shot][product-screenshot]](https://fantasy-football1.netlify.app/)
+![fantasy-football-github](https://user-images.githubusercontent.com/75081304/110791161-15f7c300-829c-11eb-9c6b-c488a72dddf6.jpg)
 
 ### Built With
 
