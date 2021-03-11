@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import Banner from './components/Banner/Banner';
 import Footer from './components/Footer/Footer';
 import About from './components/About/About';
+import NoMatch from './components/NoMatch/NoMatch';
 function App() {
   return (
     <div className='App'>
@@ -29,10 +30,12 @@ function App() {
             <TeamsDetails />
             <Footer />
           </Route>
-          {/* 
-          <Route path="/*">
+
+          <Route path='*'>
+            <Header />
             <NoMatch />
-          </Route> */}
+            <Footer />
+          </Route>
         </Switch>
       </Router>
     </div>
